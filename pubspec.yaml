@@ -1,1 +1,18 @@
+name: mahamaya_app
+description: Mahamaya Stationery - WebView app
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+sdk: '>=2.18.0 <3.0.0'
 
+
+dependencies:
+flutter:
+sdk: flutter
+webview_flutter: ^4.0.7
+url_launcher: ^6.1.10
+
+
+# assets (यदि आप आइकन/सप्लाई फाइल डालना चाहें)
+flutter:
+uses-material-design: true
